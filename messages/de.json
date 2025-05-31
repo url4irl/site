@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "URL4IRL - Technologie, die der Menschheit dient",
+    "description": "Ein Paradigmenwechsel von aufmerksamkeitserntenden Anwendungen zu lebensverbessernden Werkzeugen, die reale Verbindungen stärken und individuelle Handlungsfähigkeit stärken."
+  },
+  "nav": {
+    "philosophy": "Philosophie",
+    "pillars": "Säulen",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Technologie, die der",
+    "titleHighlight": "Menschheit dient",
+    "description": "Ein Paradigmenwechsel von aufmerksamkeitserntenden Anwendungen zu lebensverbessernden Werkzeugen, die reale Verbindungen stärken und individuelle Handlungsfähigkeit stärken.",
+    "getStarted": "Loslegen",
+    "learnMore": "Mehr Erfahren"
+  },
+  "philosophy": {
+    "title": "Kernphilosophie",
+    "description": "Technologie sollte der Menschheit dienen, sie nicht konsumieren. URL4IRL repräsentiert einen Paradigmenwechsel von aufmerksamkeitserntenden Anwendungen zu lebensverbessernden Werkzeugen, die reale Verbindungen stärken und individuelle Handlungsfähigkeit stärken."
+  },
+  "pillars": {
+    "title": "Die Drei Säulen",
+    "screenTime": {
+      "title": "Bildschirmzeit-Befreiung",
+      "description": "Werkzeuge schaffen, die alltägliche digitale Aufgaben effizient erledigen und Menschen befreien, sich mit der physischen Welt zu beschäftigen. Denken Sie an intelligente Automatisierung, die im Hintergrund arbeitet, nicht an süchtig machende Oberflächen, die ständige Aufmerksamkeit fordern."
+    },
+    "democratized": {
+      "title": "Demokratisierte Entwicklung",
+      "description": "Ein umfassendes Toolkit bereitstellen, das den Bau gemeinschaftsorientierter Software für alle zugänglich macht - von Nachbarschaftsorganisatoren bis zu Kleinunternehmern. Vorgefertigte, sichere Module für Authentifizierung, Messaging und Datenverwaltung, die Privatsphäre und lokale Kontrolle priorisieren."
+    },
+    "empowered": {
+      "title": "Gestärktes Lernen",
+      "description": "Die Kluft zwischen alltäglichen Nutzern und Technologieerstellern durch Bildungsressourcen überbrücken, die moderne Entwicklung entmystifizieren und dabei ethische, menschenzentrierte Designprinzipien betonen."
+    }
+  },
+  "cta": {
+    "title": "Bereit, der Bewegung beizutreten?",
+    "description": "Helfen Sie uns, Technologie zu entwickeln, die der Menschheit wirklich dient und unsere Gemeinschaften stärkt.",
+    "contribute": "Auf GitHub Beitragen",
+    "explore": "Projekte Erkunden"
+  },
+  "footer": {
+    "copyright": "© 2025 URL4IRL. Technologie, die der Menschheit dient."
+  },
+  "language": {
+    "selector": "Sprache",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "portuguese": "Português",
+    "chinese": "中文"
+  }
+}

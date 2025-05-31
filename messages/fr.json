@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "URL4IRL - Technologie qui sert l'humanité",
+    "description": "Un changement de paradigme des applications qui récoltent l'attention vers des outils qui améliorent la vie, renforcent les connexions du monde réel et responsabilisent l'agence individuelle."
+  },
+  "nav": {
+    "philosophy": "Philosophie",
+    "pillars": "Piliers",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Technologie qui sert",
+    "titleHighlight": "l'humanité",
+    "description": "Un changement de paradigme des applications qui récoltent l'attention vers des outils qui améliorent la vie, renforcent les connexions du monde réel et responsabilisent l'agence individuelle.",
+    "getStarted": "Commencer",
+    "learnMore": "En Savoir Plus"
+  },
+  "philosophy": {
+    "title": "Philosophie Centrale",
+    "description": "La technologie doit servir l'humanité, pas la consumer. URL4IRL représente un changement de paradigme des applications qui récoltent l'attention vers des outils qui améliorent la vie, renforcent les connexions du monde réel et responsabilisent l'agence individuelle."
+  },
+  "pillars": {
+    "title": "Les Trois Piliers",
+    "screenTime": {
+      "title": "Libération du Temps d'Écran",
+      "description": "Créer des outils qui gèrent efficacement les tâches numériques banales, libérant les gens pour s'engager avec le monde physique. Pensez automatisation intelligente qui fonctionne en arrière-plan, pas interfaces addictives qui exigent une attention constante."
+    },
+    "democratized": {
+      "title": "Développement Démocratisé",
+      "description": "Fournir une boîte à outils complète qui rend la construction de logiciels axés sur la communauté accessible à tous - des organisateurs de quartier aux propriétaires de petites entreprises. Modules pré-construits et sécurisés pour l'authentification, la messagerie et la gestion des données qui privilégient la confidentialité et le contrôle local."
+    },
+    "empowered": {
+      "title": "Apprentissage Responsabilisé",
+      "description": "Combler le fossé entre les utilisateurs quotidiens et les créateurs de technologie grâce à des ressources éducatives qui démystifient le développement moderne tout en mettant l'accent sur des principes de conception éthiques et centrés sur l'humain."
+    }
+  },
+  "cta": {
+    "title": "Prêt à rejoindre le mouvement ?",
+    "description": "Aidez-nous à construire une technologie qui sert vraiment l'humanité et renforce nos communautés.",
+    "contribute": "Contribuer sur GitHub",
+    "explore": "Explorer les Projets"
+  },
+  "footer": {
+    "copyright": "© 2025 URL4IRL. Technologie qui sert l'humanité."
+  },
+  "language": {
+    "selector": "Langue",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "portuguese": "Português",
+    "chinese": "中文"
+  }
+}
