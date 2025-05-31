@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "URL4IRL - 服务人类的技术",
+    "description": "从收获注意力的应用程序转向增强生活的工具的范式转变，这些工具加强现实世界的连接并赋予个体能力。"
+  },
+  "nav": {
+    "philosophy": "理念",
+    "pillars": "支柱",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "服务",
+    "titleHighlight": "人类的技术",
+    "description": "从收获注意力的应用程序转向增强生活的工具的范式转变，这些工具加强现实世界的连接并赋予个体能力。",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多"
+  },
+  "philosophy": {
+    "title": "核心理念",
+    "description": "技术应该服务人类，而不是消费人类。URL4IRL代表了从收获注意力的应用程序转向增强生活的工具的范式转变，这些工具加强现实世界的连接并赋予个体能力。"
+  },
+  "pillars": {
+    "title": "三大支柱",
+    "screenTime": {
+      "title": "屏幕时间解放",
+      "description": "创建高效处理平凡数字任务的工具，释放人们与物理世界互动。考虑在后台工作的智能自动化，而不是需要持续关注的成瘾界面。"
+    },
+    "democratized": {
+      "title": "民主化开发",
+      "description": "提供一个全面的工具包，使构建以社区为中心的软件对每个人都可访问 - 从邻里组织者到小企业主。为认证、消息传递和数据管理提供预构建的安全模块，优先考虑隐私和本地控制。"
+    },
+    "empowered": {
+      "title": "赋能学习",
+      "description": "通过教育资源弥合日常用户和技术创造者之间的差距，这些资源揭开现代开发的神秘面纱，同时强调道德、以人为中心的设计原则。"
+    }
+  },
+  "cta": {
+    "title": "准备加入这个运动吗？",
+    "description": "帮助我们构建真正服务人类并加强我们社区的技术。",
+    "contribute": "在GitHub上贡献",
+    "explore": "探索项目"
+  },
+  "footer": {
+    "copyright": "© 2025 URL4IRL. 服务人类的技术。"
+  },
+  "language": {
+    "selector": "语言",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "portuguese": "Português",
+    "chinese": "中文"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "URL4IRL - Technology that serves humanity",
+    "description": "A paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency."
+  },
+  "nav": {
+    "philosophy": "Philosophy",
+    "pillars": "Pillars",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Technology that serves",
+    "titleHighlight": "humanity",
+    "description": "A paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "philosophy": {
+    "title": "Core Philosophy",
+    "description": "Technology should serve humanity, not consume it. URL4IRL represents a paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency."
+  },
+  "pillars": {
+    "title": "The Three Pillars",
+    "screenTime": {
+      "title": "Screen-Time Liberation",
+      "description": "Create tools that handle mundane digital tasks efficiently, freeing people to engage with the physical world. Think smart automation that works in the background, not addictive interfaces that demand constant attention."
+    },
+    "democratized": {
+      "title": "Democratized Development",
+      "description": "Provide a comprehensive toolkit that makes building community-focused software accessible to everyone - from neighborhood organizers to small business owners. Pre-built, secure modules for authentication, messaging, and data management that prioritize privacy and local control."
+    },
+    "empowered": {
+      "title": "Empowered Learning",
+      "description": "Bridge the gap between everyday users and technology creators through educational resources that demystify modern development while emphasizing ethical, human-centered design principles."
+    }
+  },
+  "cta": {
+    "title": "Ready to join the movement?",
+    "description": "Help us build technology that truly serves humanity and strengthens our communities.",
+    "contribute": "Contribute on GitHub",
+    "explore": "Explore Projects"
+  },
+  "footer": {
+    "copyright": "© 2025 URL4IRL. Technology that serves humanity."
+  },
+  "language": {
+    "selector": "Language",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "portuguese": "Português",
+    "chinese": "中文"
+  }
+}

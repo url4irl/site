@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "URL4IRL - Tecnologia que serve à humanidade",
+    "description": "Uma mudança de paradigma de aplicações que colhem atenção para ferramentas que melhoram a vida, fortalecem conexões do mundo real e empoderam a agência individual."
+  },
+  "nav": {
+    "philosophy": "Filosofia",
+    "pillars": "Pilares",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Tecnologia que serve à",
+    "titleHighlight": "humanidade",
+    "description": "Uma mudança de paradigma de aplicações que colhem atenção para ferramentas que melhoram a vida, fortalecem conexões do mundo real e empoderam a agência individual.",
+    "getStarted": "Começar",
+    "learnMore": "Saber Mais"
+  },
+  "philosophy": {
+    "title": "Filosofia Central",
+    "description": "A tecnologia deve servir à humanidade, não consumi-la. URL4IRL representa uma mudança de paradigma de aplicações que colhem atenção para ferramentas que melhoram a vida, fortalecem conexões do mundo real e empoderam a agência individual."
+  },
+  "pillars": {
+    "title": "Os Três Pilares",
+    "screenTime": {
+      "title": "Libertação do Tempo de Tela",
+      "description": "Criar ferramentas que lidam eficientemente com tarefas digitais mundanas, liberando pessoas para se envolver com o mundo físico. Pense em automação inteligente que funciona em segundo plano, não interfaces viciantes que exigem atenção constante."
+    },
+    "democratized": {
+      "title": "Desenvolvimento Democratizado",
+      "description": "Fornecer um kit de ferramentas abrangente que torna a construção de software focado na comunidade acessível a todos - desde organizadores de bairro até proprietários de pequenas empresas. Módulos pré-construídos e seguros para autenticação, mensagens e gerenciamento de dados que priorizam privacidade e controle local."
+    },
+    "empowered": {
+      "title": "Aprendizado Empoderado",
+      "description": "Preencher a lacuna entre usuários cotidianos e criadores de tecnologia através de recursos educacionais que desmistificam o desenvolvimento moderno enquanto enfatizam princípios de design éticos e centrados no ser humano."
+    }
+  },
+  "cta": {
+    "title": "Pronto para se juntar ao movimento?",
+    "description": "Ajude-nos a construir tecnologia que verdadeiramente serve à humanidade e fortalece nossas comunidades.",
+    "contribute": "Contribuir no GitHub",
+    "explore": "Explorar Projetos"
+  },
+  "footer": {
+    "copyright": "© 2025 URL4IRL. Tecnologia que serve à humanidade."
+  },
+  "language": {
+    "selector": "Idioma",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "portuguese": "Português",
+    "chinese": "中文"
+  }
+}
