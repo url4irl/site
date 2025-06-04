@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -19,11 +19,14 @@ const geistMono = Geist_Mono({
 
 interface LayoutProps {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const messages = await getMessages();
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const locale = (await params).locale
+  const messages = await getMessages({ 
+    locale
+  });
   const siteMessages = messages.site as any;
   
   return {
@@ -36,7 +39,8 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function LocaleLayout({ children, params: { locale } }: LayoutProps) {
+export default async function LocaleLayout({ children, params }: LayoutProps) {
+  const locale = (await params).locale
   // Validate that the incoming `locale` parameter is valid
   if (!routing.locales.includes(locale as any)) {
     notFound();

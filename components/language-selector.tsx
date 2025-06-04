@@ -19,6 +19,7 @@ export function LanguageSelector({ currentLocale, className = '' }: LanguageSele
   const pathname = usePathname();
 
   useEffect(() => {
+    detectUserLocale()
     setMounted(true);
   }, []);
 
