@@ -6,6 +6,7 @@
   "nav": {
     "philosophy": "Philosophie",
     "pillars": "Säulen",
+    "blog": "Blog",
     "github": "GitHub"
   },
   "hero": {
@@ -51,5 +52,13 @@
     "german": "Deutsch",
     "portuguese": "Português",
     "chinese": "中文"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Einblicke und Gedanken zu Technologie, die der Menschheit dient.",
+    "readMore": "Weiterlesen",
+    "backToBlog": "Zurück zum Blog",
+    "noPosts": "Noch keine Blog-Beiträge verfügbar.",
+    "rss": "RSS-Feed abonnieren"
   }
 }

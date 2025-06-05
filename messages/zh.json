@@ -6,6 +6,7 @@
   "nav": {
     "philosophy": "理念",
     "pillars": "支柱",
+    "blog": "博客",
     "github": "GitHub"
   },
   "hero": {
@@ -51,5 +52,13 @@
     "german": "Deutsch",
     "portuguese": "Português",
     "chinese": "中文"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "关于服务人类技术的见解和思考。",
+    "readMore": "阅读更多",
+    "backToBlog": "返回博客",
+    "noPosts": "暂无博客文章。",
+    "rss": "订阅RSS源"
   }
 }
