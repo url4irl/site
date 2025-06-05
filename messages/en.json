@@ -6,6 +6,7 @@
   "nav": {
     "philosophy": "Philosophy",
     "pillars": "Pillars",
+    "blog": "Blog",
     "github": "GitHub"
   },
   "hero": {
@@ -51,5 +52,13 @@
     "german": "Deutsch",
     "portuguese": "Português",
     "chinese": "中文"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Insights and thoughts on technology that serves humanity.",
+    "readMore": "Read more",
+    "backToBlog": "Back to Blog",
+    "noPosts": "No blog posts available yet.",
+    "rss": "Subscribe to RSS Feed"
   }
 }

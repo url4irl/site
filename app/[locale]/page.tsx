@@ -16,6 +16,9 @@ export default function Home() {
           <a href="#pillars" className="text-muted-foreground hover:text-foreground transition-colors">
             {t('nav.pillars')}
           </a>
+          <a href="/blog" className="text-muted-foreground hover:text-foreground transition-colors">
+            {t('nav.blog')}
+          </a>
           <a href="https://github.com/url4irl" className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1">
             <Github className="w-4 h-4" />
             {t('nav.github')}
