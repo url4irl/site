@@ -4,10 +4,9 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
-import { LanguageSelector } from "../../components/language-selector";
-import "../globals.css";
 import { FooterContainer } from "@/containers/footer";
 import { HeaderContainer } from "@/containers/header";
+import "../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

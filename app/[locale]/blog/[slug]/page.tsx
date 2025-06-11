@@ -1,17 +1,21 @@
-import { getBlogPost, getBlogPostSlugs } from '../../../../lib/blog';
-import { notFound } from 'next/navigation';
-import { Calendar, User, ArrowLeft } from 'lucide-react';
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { getBlogPost, getBlogPostSlugs } from "../../../../lib/blog";
+import { notFound } from "next/navigation";
+import { Calendar, User, ArrowLeft } from "lucide-react";
+import Link from "next/link";
+// import { useTranslations } from "next-intl";
 
 interface BlogPostPageProps {
   params: Promise<{ locale: string; slug: string }>;
 }
 
-export async function generateStaticParams({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateStaticParams({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const locale = (await params).locale;
   const slugs = await getBlogPostSlugs(locale);
-  
+
   return slugs.map((slug) => ({
     slug,
   }));
@@ -23,7 +27,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
   if (!post) {
     return {
-      title: 'Post Not Found - URL4IRL',
+      title: "Post Not Found - URL4IRL",
     };
   }
 
@@ -35,7 +39,6 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { locale, slug } = await params;
-  const t = useTranslations();
   const post = await getBlogPost(slug, locale);
 
   if (!post) {
@@ -44,9 +47,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString(locale, {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
   };
 
@@ -55,12 +58,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <div className="container mx-auto px-6 md:px-8 py-16">
         {/* Back to Blog */}
         <div className="mb-8">
-          <Link 
+          <Link
             href={`/${locale}/blog`}
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            {t('blog.backToBlog', { default: 'Back to Blog' })}
+            Back to Blog
+            {/* {t("blog.backToBlog", { default: "Back to Blog" })} */}
           </Link>
         </div>
 
@@ -71,7 +75,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
               {post.title}
             </h1>
-            
+
             <div className="flex items-center justify-center gap-6 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5" />
@@ -89,7 +93,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Featured Image */}
           {post.featured_image && (
             <div className="mb-12">
-              <img 
+              <img
                 src={post.featured_image}
                 alt={post.title}
                 className="w-full h-64 md:h-96 object-cover rounded-lg"
@@ -99,7 +103,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
           {/* Content */}
           <div className="prose prose-lg max-w-none">
-            <div 
+            <div
               dangerouslySetInnerHTML={{ __html: post.content }}
               className="text-foreground leading-relaxed"
             />
@@ -108,12 +112,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Footer */}
           <footer className="mt-16 pt-8 border-t border-border">
             <div className="text-center">
-              <Link 
+              <Link
                 href={`/${locale}/blog`}
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
               >
                 <ArrowLeft className="w-4 h-4" />
-                {t('blog.backToBlog', { default: 'Back to Blog' })}
+                Back to Blog
+                {/* {t('blog.backToBlog', { default: 'Back to Blog' })} */}
               </Link>
             </div>
           </footer>
