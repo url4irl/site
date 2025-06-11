@@ -4,40 +4,57 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --radius: 1rem;
-  --background: oklch(0.982 0.005 95.099);
-  --foreground: oklch(0.344 0.027 95.723);
-  --card: oklch(0.982 0.005 95.099);
-  --card-foreground: oklch(0.191 0.002 106.586);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.267 0.02 98.939);
-  --primary: oklch(0.541 0.281 293.009);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.925 0.014 92.989);
-  --secondary-foreground: oklch(0.433 0.018 98.605);
-  --muted: oklch(0.934 0.015 90.239);
-  --muted-foreground: oklch(0.514 0.008 88.691);
-  --accent: oklch(0.925 0.014 92.989);
-  --accent-foreground: oklch(0.267 0.02 98.939);
-  --destructive: oklch(0.191 0.002 106.586);
-  --border: oklch(0.885 0.007 97.363);
-  --input: oklch(0.762 0.016 98.353);
-  --ring: oklch(0.541 0.281 293.009);
-  --chart-1: oklch(0.667 0.195 141.992);
-  --chart-2: oklch(0.721 0.163 305.772);
-  --chart-3: oklch(0.882 0.028 93.128);
-  --chart-4: oklch(0.931 0.034 170.74);
-  --chart-5: oklch(0.511 0.21 315.639);
-  --sidebar: oklch(0.966 0.008 98.879);
-  --sidebar-foreground: oklch(0.359 0.005 106.652);
-  --sidebar-primary: oklch(0.541 0.281 293.009);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.925 0.014 92.989);
-  --sidebar-accent-foreground: oklch(0.325 0 0);
-  --sidebar-border: oklch(0.928 0 0);
-  --sidebar-ring: oklch(0.541 0.281 293.009);
+  --radius: 1.5rem;
 
-  --shadow-color: oklch(0 0 0);
+  /* Pink Pup Theme - Light Mode */
+  --background: oklch(0.99 0.01 330.2); /* Very light pink background */
+  --foreground: oklch(0.15 0.03 330.2); /* Dark pink-gray text */
+
+  --card: oklch(1 0 0); /* Pure white cards */
+  --card-foreground: oklch(0.2 0.03 330.2); /* Dark pink-gray card text */
+
+  --popover: oklch(1 0 0); /* White popover */
+  --popover-foreground: oklch(0.2 0.03 330.2); /* Dark pink-gray popover text */
+
+  --primary: oklch(0.6 0.15 330.2); /* Main pink (pup-pink-500) */
+  --primary-foreground: oklch(1 0 0); /* White text on pink */
+
+  --secondary: oklch(0.96 0.02 330.2); /* Light pink secondary */
+  --secondary-foreground: oklch(0.3 0.03 330.2); /* Dark pink secondary text */
+
+  --muted: oklch(0.94 0.015 330.2); /* Muted pink background */
+  --muted-foreground: oklch(0.45 0.02 330.2); /* Muted pink text */
+
+  --accent: oklch(0.92 0.02 330.2); /* Light pink accent */
+  --accent-foreground: oklch(0.25 0.03 330.2); /* Dark pink accent text */
+
+  --destructive: oklch(0.55 0.2 25); /* Red destructive */
+
+  --border: oklch(0.85 0.015 330.2); /* Light pink border */
+  --input: oklch(0.92 0.015 330.2); /* Light pink input background */
+  --ring: oklch(0.6 0.15 330.2); /* Pink focus ring */
+
+  /* Chart colors with pup theme */
+  --chart-1: oklch(0.6 0.15 330.2); /* Main pink */
+  --chart-2: oklch(0.55 0.12 175); /* Mint green */
+  --chart-3: oklch(0.5 0.18 310); /* Magenta */
+  --chart-4: oklch(0.45 0.1 330.2); /* Dark pink */
+  --chart-5: oklch(0.7 0.08 330.2); /* Light pink */
+
+  /* Sidebar colors */
+  --sidebar: oklch(0.98 0.01 330.2); /* Very light pink sidebar */
+  --sidebar-foreground: oklch(0.25 0.03 330.2); /* Dark pink sidebar text */
+  --sidebar-primary: oklch(0.6 0.15 330.2); /* Pink sidebar primary */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White sidebar primary text */
+  --sidebar-accent: oklch(0.94 0.015 330.2); /* Light pink sidebar accent */
+  --sidebar-accent-foreground: oklch(
+    0.3 0.03 330.2
+  ); /* Dark pink sidebar accent text */
+  --sidebar-border: oklch(0.9 0.01 330.2); /* Pink sidebar border */
+  --sidebar-ring: oklch(0.6 0.15 330.2); /* Pink sidebar ring */
+
+  /* Pink-tinted shadows */
+  --shadow-color: oklch(0.6 0.15 330.2);
   --shadow-2xs: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.05);
   --shadow-xs: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.05);
   --shadow-sm: 0 1px 3px 0px rgb(from var(--shadow-color) r g b / 0.1),
@@ -54,38 +71,56 @@
 }
 
 .dark {
-  --background: oklch(0.268 0.004 106.643);
-  --foreground: oklch(0.807 0.014 93.014);
-  --card: oklch(0.268 0.004 106.643);
-  --card-foreground: oklch(0.982 0.005 95.099);
-  --popover: oklch(0.308 0.004 106.604);
-  --popover-foreground: oklch(0.921 0.004 106.478);
-  --primary: oklch(0.541 0.281 293.009);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.982 0.005 95.099);
-  --secondary-foreground: oklch(0.308 0.004 106.604);
-  --muted: oklch(0.221 0.004 106.707);
-  --muted-foreground: oklch(0.771 0.017 99.066);
-  --accent: oklch(0.213 0.008 95.424);
-  --accent-foreground: oklch(0.966 0.008 98.879);
-  --destructive: oklch(0.579 0.185 25.08);
-  --border: oklch(0.362 0.01 106.893);
-  --input: oklch(0.434 0.011 100.22);
-  --ring: oklch(0.541 0.281 293.009);
-  --chart-1: oklch(0.558 0.128 42.996);
-  --chart-2: oklch(0.69 0.158 290.411);
-  --chart-3: oklch(0.213 0.008 95.424);
-  --chart-4: oklch(0.307 0.052 289.323);
-  --chart-5: oklch(0.561 0.135 42.058);
-  --sidebar: oklch(0.236 0.002 67.708);
-  --sidebar-foreground: oklch(0.807 0.014 93.014);
-  --sidebar-primary: oklch(0.541 0.281 293.009);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.168 0.002 106.618);
-  --sidebar-accent-foreground: oklch(0.807 0.014 93.014);
-  --sidebar-border: oklch(0.313 0 0);
-  --sidebar-ring: oklch(0.541 0.281 293.009);
+  /* Pink Pup Theme - Dark Mode */
+  --background: oklch(0.12 0.02 330.2); /* Dark pink background */
+  --foreground: oklch(0.9 0.01 330.2); /* Light pink text */
 
+  --card: oklch(0.15 0.02 330.2); /* Dark pink cards */
+  --card-foreground: oklch(0.95 0.01 330.2); /* Light pink card text */
+
+  --popover: oklch(0.18 0.02 330.2); /* Dark pink popover */
+  --popover-foreground: oklch(0.92 0.01 330.2); /* Light pink popover text */
+
+  --primary: oklch(0.65 0.15 330.2); /* Bright pink primary */
+  --primary-foreground: oklch(1 0 0); /* White text on pink */
+
+  --secondary: oklch(0.2 0.02 330.2); /* Dark pink secondary */
+  --secondary-foreground: oklch(
+    0.85 0.01 330.2
+  ); /* Light pink secondary text */
+
+  --muted: oklch(0.18 0.02 330.2); /* Dark muted pink */
+  --muted-foreground: oklch(0.7 0.01 330.2); /* Medium pink muted text */
+
+  --accent: oklch(0.22 0.02 330.2); /* Dark pink accent */
+  --accent-foreground: oklch(0.9 0.01 330.2); /* Light pink accent text */
+
+  --destructive: oklch(0.6 0.2 25); /* Bright red destructive */
+
+  --border: oklch(0.25 0.02 330.2); /* Dark pink border */
+  --input: oklch(0.22 0.02 330.2); /* Dark pink input */
+  --ring: oklch(0.65 0.15 330.2); /* Bright pink focus ring */
+
+  /* Dark mode chart colors */
+  --chart-1: oklch(0.65 0.15 330.2); /* Bright pink */
+  --chart-2: oklch(0.6 0.12 175); /* Bright mint */
+  --chart-3: oklch(0.55 0.18 310); /* Bright magenta */
+  --chart-4: oklch(0.5 0.12 330.2); /* Medium pink */
+  --chart-5: oklch(0.75 0.1 330.2); /* Light pink */
+
+  /* Dark mode sidebar */
+  --sidebar: oklch(0.1 0.015 330.2); /* Very dark pink sidebar */
+  --sidebar-foreground: oklch(0.9 0.01 330.2); /* Light pink sidebar text */
+  --sidebar-primary: oklch(0.65 0.15 330.2); /* Bright pink sidebar primary */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White sidebar primary text */
+  --sidebar-accent: oklch(0.16 0.02 330.2); /* Dark pink sidebar accent */
+  --sidebar-accent-foreground: oklch(
+    0.9 0.01 330.2
+  ); /* Light pink sidebar accent text */
+  --sidebar-border: oklch(0.2 0.015 330.2); /* Dark pink sidebar border */
+  --sidebar-ring: oklch(0.65 0.15 330.2); /* Bright pink sidebar ring */
+
+  /* Dark mode shadows */
   --shadow-color: oklch(0 0 0);
 }
 
@@ -98,6 +133,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
@@ -138,6 +174,22 @@
   --shadow-lg: var(--shadow-lg);
   --shadow-xl: var(--shadow-xl);
   --shadow-2xl: var(--shadow-2xl);
+
+  /* Pup-specific color extensions */
+  --color-pup-pink-50: oklch(0.99 0.01 330.2);
+  --color-pup-pink-100: oklch(0.97 0.02 330.2);
+  --color-pup-pink-200: oklch(0.93 0.03 330.2);
+  --color-pup-pink-300: oklch(0.85 0.06 330.2);
+  --color-pup-pink-400: oklch(0.75 0.1 330.2);
+  --color-pup-pink-500: oklch(0.6 0.15 330.2);
+  --color-pup-pink-600: oklch(0.5 0.16 330.2);
+  --color-pup-pink-700: oklch(0.4 0.14 330.2);
+  --color-pup-pink-800: oklch(0.3 0.12 330.2);
+  --color-pup-pink-900: oklch(0.2 0.1 330.2);
+  --color-pup-pink-950: oklch(0.1 0.08 330.2);
+
+  --color-pup-mint-500: oklch(0.55 0.12 175);
+  --color-pup-magenta-500: oklch(0.5 0.18 310);
 }
 
 @layer base {
@@ -146,5 +198,77 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Playful animations for the pup theme */
+@keyframes pup-wiggle {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes pup-float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pup-bounce {
+  0%,
+  20%,
+  53%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40%,
+  43% {
+    transform: translateY(-15px);
+  }
+  70% {
+    transform: translateY(-8px);
+  }
+  90% {
+    transform: translateY(-3px);
+  }
+}
+
+@layer utilities {
+  .animate-pup-wiggle {
+    animation: pup-wiggle 1s ease-in-out infinite;
+  }
+
+  .animate-pup-float {
+    animation: pup-float 3s ease-in-out infinite;
+  }
+
+  .animate-pup-bounce {
+    animation: pup-bounce 1s infinite;
+  }
+
+  .pup-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--color-pup-pink-500) 0%,
+      var(--color-pup-pink-600) 100%
+    );
+  }
+
+  .pup-shine {
+    background: linear-gradient(
+      135deg,
+      var(--color-pup-pink-100) 0%,
+      var(--color-pup-pink-500) 50%,
+      var(--color-pup-pink-600) 100%
+    );
   }
 }

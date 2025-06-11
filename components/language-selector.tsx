@@ -1,25 +1,31 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
-import { Globe, ChevronDown } from 'lucide-react';
-import { routing } from '../i18n/routing';
-import { detectUserLocale, getLocaleDisplayName } from '../lib/i18n/locale-detection';
-import { setStoredLocale } from '../lib/i18n/locale-storage';
+import { useState, useEffect } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { Globe, ChevronDown } from "lucide-react";
+import { routing } from "../i18n/routing";
+import {
+  detectUserLocale,
+  getLocaleDisplayName,
+} from "../lib/i18n/locale-detection";
+import { setStoredLocale } from "../lib/i18n/locale-storage";
 
 interface LanguageSelectorProps {
   currentLocale: string;
   className?: string;
 }
 
-export function LanguageSelector({ currentLocale, className = '' }: LanguageSelectorProps) {
+export function LanguageSelector({
+  currentLocale,
+  className = "",
+}: LanguageSelectorProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
 
   useEffect(() => {
-    detectUserLocale()
+    detectUserLocale();
     setMounted(true);
   }, []);
 
@@ -30,11 +36,11 @@ export function LanguageSelector({ currentLocale, className = '' }: LanguageSele
   const handleLocaleChange = (locale: string) => {
     // Store user preference
     setStoredLocale(locale);
-    
+
     // Update URL
     const newPathname = pathname.replace(`/${currentLocale}`, `/${locale}`);
     router.push(newPathname);
-    
+
     setIsOpen(false);
   };
 
@@ -59,7 +65,7 @@ export function LanguageSelector({ currentLocale, className = '' }: LanguageSele
             className="fixed inset-0 z-10"
             onClick={() => setIsOpen(false)}
           />
-          <div className="absolute right-0 z-20 mt-2 w-48 rounded-md border border-border bg-background shadow-lg">
+          <div className="absolute right-0 md:right-0 left-0 md:left-auto z-20 mt-2 w-full md:w-48 rounded-md border border-border bg-background shadow-lg">
             <div className="py-1">
               {routing.locales.map((locale) => (
                 <button
@@ -67,9 +73,10 @@ export function LanguageSelector({ currentLocale, className = '' }: LanguageSele
                   onClick={() => handleLocaleChange(locale)}
                   className={`
                     block w-full px-4 py-2 text-left text-sm transition-colors
-                    ${locale === currentLocale 
-                      ? 'bg-accent text-accent-foreground' 
-                      : 'text-muted-foreground hover:bg-accent hover:text-accent-foreground'
+                    ${
+                      locale === currentLocale
+                        ? "bg-accent text-accent-foreground"
+                        : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
                     }
                   `}
                 >
