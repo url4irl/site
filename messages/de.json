@@ -7,7 +7,8 @@
     "philosophy": "Philosophie",
     "pillars": "Säulen",
     "blog": "Blog",
-    "github": "GitHub"
+    "github": "GitHub",
+    "projects": "Projekte"
   },
   "hero": {
     "title": "Technologie, die der",
@@ -40,6 +41,12 @@
     "description": "Helfen Sie uns, Technologie zu entwickeln, die der Menschheit wirklich dient und unsere Gemeinschaften stärkt.",
     "contribute": "Auf GitHub Beitragen",
     "explore": "Projekte Erkunden"
+  },
+  "projects": {
+    "eutiveumsonho": "Eu tive um sonho ist ein soziales Netzwerk, das für Träumer entwickelt wurde, um ihre Träume innerhalb der weltweiten Traumgemeinschaft zu bewahren und auszutauschen.",
+    "domain-verification": "Überprüfen und Anweisen der Domainkonfiguration, damit Sie nach der DNS-TXT-Eintrag-Verifizierung auf diese verweisen können.",
+    "token-count": "Ein Dienst, der API-Endpunkte für Benutzer anbietet, um Dokumente zu senden und diese in eine KI-Bereitschafts-/Nutzungsanalyse aufzuschlüsseln: Token-Anzahl, Dokumentgröße in Bytes, Zeichenanzahl usw.",
+    "searxng": "SearXNG ist eine datenschutzfreundliche, hackbare Metasuchmaschine, die Ergebnisse von verschiedenen Suchmaschinen aggregiert und gleichzeitig die Privatsphäre der Benutzer schützt."
   },
   "footer": {
     "copyright": "© 2025 URL4IRL. Technologie, die der Menschheit dient."

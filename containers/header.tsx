@@ -40,12 +40,14 @@ export function HeaderContainer() {
           {isHome && (
             <>
               <a
+                data-umami-event="header-philosophy-link"
                 href="#philosophy"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 {t("nav.philosophy")}
               </a>
               <a
+                data-umami-event="header-pillars-link"
                 href="#pillars"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
@@ -54,23 +56,27 @@ export function HeaderContainer() {
             </>
           )}
           <a
+            data-umami-event="header-github-link"
             href="https://github.com/url4irl"
             target="_blank"
             className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
           >
             {t("nav.github")}
           </a>
+          
           <a
-            href={`/${locale}/blog`}
+            data-umami-event="header-projects-link"
+            href="#projects"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
-            {t("nav.blog")}
+            {t("nav.projects")}
           </a>
           <LanguageSelector currentLocale={locale} />
         </nav>
 
         {/* Mobile Menu Button */}
         <button
+          data-umami-event="header-mobile-menu-toggle"
           onClick={toggleMobileMenu}
           className="md:hidden p-2 rounded-md hover:bg-accent transition-colors"
           aria-label="Toggle mobile menu"
@@ -88,6 +94,7 @@ export function HeaderContainer() {
         <nav className="md:hidden absolute top-full left-0 right-0 bg-background border-b shadow-lg z-50">
           <div className="flex flex-col p-6 gap-4">
             <a
+              data-umami-event="header-mobile-philosophy-link"
               href="#philosophy"
               className="text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
@@ -95,20 +102,24 @@ export function HeaderContainer() {
               {t("nav.philosophy")}
             </a>
             <a
+              data-umami-event="header-mobile-pillars-link"
               href="#pillars"
               className="text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {t("nav.pillars")}
             </a>
+            
             <a
-              href={`/${locale}/blog`}
+              data-umami-event="header-mobile-projects-link"
+              href="#projects"
               className="text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              {t("nav.blog")}
+              {t("nav.projects")}
             </a>
             <a
+              data-umami-event="header-mobile-github-link"
               href="https://github.com/url4irl"
               className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 py-2"
               onClick={() => setIsMobileMenuOpen(false)}

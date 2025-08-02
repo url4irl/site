@@ -15,7 +15,10 @@ export default function Logo({
   href = "/",
 }: LogoProps) {
   const logoContent = (
-    <div className={`flex items-center gap-2 ${className}`}>
+    <div
+      className={`flex items-center gap-2 ${className}`}
+      data-umami-event="logo-click"
+    >
       <Image
         src="/android-chrome-192x192.png"
         alt="url4irl logo"
@@ -32,7 +35,11 @@ export default function Logo({
 
   if (href) {
     return (
-      <Link href={href} className="hover:opacity-80 transition-opacity">
+      <Link
+        href={href}
+        className="hover:opacity-80 transition-opacity"
+        data-umami-event="logo-link-click"
+      >
         {logoContent}
       </Link>
     );

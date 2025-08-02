@@ -49,6 +49,7 @@ export function LanguageSelector({
   return (
     <div className={`relative inline-block text-left ${className}`}>
       <button
+        data-umami-event="language-selector-toggle"
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors bg-background border border-border rounded-md"
         aria-expanded={isOpen}
@@ -62,6 +63,7 @@ export function LanguageSelector({
       {isOpen && (
         <>
           <div
+            data-umami-event="language-selector-close"
             className="fixed inset-0 z-10"
             onClick={() => setIsOpen(false)}
           />
@@ -69,6 +71,7 @@ export function LanguageSelector({
             <div className="py-1">
               {routing.locales.map((locale) => (
                 <button
+                  data-umami-event="language-selector-change-locale"
                   key={locale}
                   onClick={() => handleLocaleChange(locale)}
                   className={`

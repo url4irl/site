@@ -7,7 +7,8 @@
     "philosophy": "理念",
     "pillars": "支柱",
     "blog": "博客",
-    "github": "GitHub"
+    "github": "GitHub",
+    "projects": "项目"
   },
   "hero": {
     "title": "服务",
@@ -40,6 +41,12 @@
     "description": "帮助我们构建真正服务人类并加强我们社区的技术。",
     "contribute": "在GitHub上贡献",
     "explore": "探索项目"
+  },
+  "projects": {
+    "eutiveumsonho": "Eu tive um sonho 是一个社交网络，旨在让梦想家在全球梦想社区中保存和交流他们的梦想。",
+    "domain-verification": "验证并指导域名配置，使您可以在DNS TXT记录验证后继续指向它们。",
+    "token-count": "一项服务，为用户提供API端点，用于发送文档并将其分解为AI准备/使用分析：令牌计数、文档大小（字节）、字符计数等。",
+    "searxng": "SearXNG是一个尊重隐私、可破解的元搜索引擎，它聚合了来自各种搜索引擎的结果，同时保护用户隐私。"
   },
   "footer": {
     "copyright": "© 2025 URL4IRL. 服务人类的技术。"

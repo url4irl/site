@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently -n site,directus -c magenta.bold,green.bold \"wait-on http://localhost:8055 && next dev --turbopack\" \"docker compose up\"",
+    "dev": "next dev --turbopack --port 3123",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

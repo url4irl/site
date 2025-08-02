@@ -1,11 +1,5 @@
-import {
-  Monitor,
-  Users,
-  GraduationCap,
-  ArrowRight,
-  Github,
-  Globe,
-} from "lucide-react";
+import { ProjectsContainer } from "@/containers/projects";
+import { Monitor, Users, GraduationCap, Github, Globe } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
@@ -26,13 +20,12 @@ export default function Home() {
             {t("hero.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors flex items-center gap-2 justify-center">
-              {t("hero.getStarted")}
-              <ArrowRight className="w-4 h-4" />
-            </button>
-            <button className="border border-border px-8 py-3 rounded-lg font-medium hover:bg-accent transition-colors">
+            <a
+              href="#philosophy"
+              className="border border-border px-8 py-3 rounded-lg font-medium hover:bg-accent transition-colors"
+            >
               {t("hero.learnMore")}
-            </button>
+            </a>
           </div>
         </section>
 
@@ -96,6 +89,8 @@ export default function Home() {
           </div>
         </section>
 
+        <ProjectsContainer />
+
         {/* Call to Action */}
         <section className="py-16 md:py-24 text-center">
           <div className="bg-card border border-border rounded-lg p-8 md:p-12 max-w-4xl mx-auto">
@@ -106,14 +101,23 @@ export default function Home() {
               {t("cta.description")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors flex items-center gap-2 justify-center">
+              <a
+                href="https://github.com/url4irl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors flex items-center gap-2 justify-center"
+              >
                 <Github className="w-4 h-4" />
                 {t("cta.contribute")}
-              </button>
-              <button className="border border-border px-8 py-3 rounded-lg font-medium hover:bg-accent transition-colors flex items-center gap-2 justify-center">
+              </a>
+              <a
+                data-umami-event="cta-explore-projects"
+                href="#projects"
+                className="border border-border px-8 py-3 rounded-lg font-medium hover:bg-accent transition-colors flex items-center gap-2 justify-center"
+              >
                 <Globe className="w-4 h-4" />
                 {t("cta.explore")}
-              </button>
+              </a>
             </div>
           </div>
         </section>

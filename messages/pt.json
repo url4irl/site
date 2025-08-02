@@ -7,7 +7,8 @@
     "philosophy": "Filosofia",
     "pillars": "Pilares",
     "blog": "Blog",
-    "github": "GitHub"
+    "github": "GitHub",
+    "projects": "Projetos"
   },
   "hero": {
     "title": "Tecnologia que serve à",
@@ -40,6 +41,12 @@
     "description": "Ajude-nos a construir tecnologia que verdadeiramente serve à humanidade e fortalece nossas comunidades.",
     "contribute": "Contribuir no GitHub",
     "explore": "Explorar Projetos"
+  },
+  "projects": {
+    "eutiveumsonho": "Eu tive um sonho é uma rede social projetada para sonhadores preservarem e trocarem seus sonhos dentro da comunidade mundial de sonhadores.",
+    "domain-verification": "Verifique e instrua a configuração de domínio, permitindo que você continue apontando para eles após a verificação do registro DNS TXT.",
+    "token-count": "Um serviço que oferece endpoints de API para usuários enviarem documentos e tê-los divididos em uma análise de prontidão/uso de IA: contagem de tokens, tamanho do documento em bytes, contagem de caracteres, etc.",
+    "searxng": "SearXNG é um metasearch engine hackeável e que respeita a privacidade, que agrega resultados de vários motores de busca enquanto protege a privacidade do usuário."
   },
   "footer": {
     "copyright": "© 2025 URL4IRL. Tecnologia que serve à humanidade."
