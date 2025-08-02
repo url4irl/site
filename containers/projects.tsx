@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Github } from "lucide-react";
 
 export function ProjectsContainer() {
   const t = useTranslations();
@@ -15,13 +16,13 @@ export function ProjectsContainer() {
     {
       name: "Domain Verification Service",
       description: t("projects.domain-verification"),
-      href: "https://domain-verification.url4irl.com",
+      href: "https://domain-verification.url4irl.com/docs",
       github: "https://github.com/url4irl/domain-verification",
     },
     {
       name: "Token Count Service",
       description: t("projects.token-count"),
-      href: "https://token-count.url4irl.com",
+      href: "https://token-count.url4irl.com/docs",
       github: "https://github.com/url4irl/token-count",
     },
     {
@@ -40,17 +41,37 @@ export function ProjectsContainer() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <a
-              data-umami-event={`project-click-${project.name}`}
+            <div
               key={project.name}
-              href={project.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-card p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col justify-between"
             >
-              <h3 className="text-xl font-bold mb-2">{project.name}</h3>
-              <p className="text-muted-foreground">{project.description}</p>
-            </a>
+              <div>
+                <h3 className="text-xl font-bold mb-2">{project.name}</h3>
+                <p className="text-muted-foreground">{project.description}</p>
+              </div>
+              <div className="mt-4 flex justify-between items-center">
+                <a
+                  data-umami-event={`project-click-${project.name}`}
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  {new URL(project.href).hostname}
+                </a>
+                {project.github && (
+                  <a
+                    data-umami-event={`github-click-${project.name}`}
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="h-6 w-6" />
+                  </a>
+                )}
+              </div>
+            </div>
           ))}
         </div>
       </div>
