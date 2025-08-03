@@ -49,7 +49,8 @@
     "searxng": "SearXNG é um metasearch engine hackeável e que respeita a privacidade, que agrega resultados de vários motores de busca enquanto protege a privacidade do usuário."
   },
   "footer": {
-    "copyright": "© 2025 URL4IRL. Tecnologia que serve à humanidade."
+    "copyright": "© 2025 URL4IRL. Tecnologia que serve à humanidade.",
+    "status": "Status"
   },
   "language": {
     "selector": "Idioma",

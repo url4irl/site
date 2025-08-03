@@ -49,7 +49,8 @@
     "searxng": "SearXNG ist eine datenschutzfreundliche, hackbare Metasuchmaschine, die Ergebnisse von verschiedenen Suchmaschinen aggregiert und gleichzeitig die Privatsphäre der Benutzer schützt."
   },
   "footer": {
-    "copyright": "© 2025 URL4IRL. Technologie, die der Menschheit dient."
+    "copyright": "© 2025 URL4IRL. Technologie, die der Menschheit dient.",
+    "status": "Status"
   },
   "language": {
     "selector": "Sprache",

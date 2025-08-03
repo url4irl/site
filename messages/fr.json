@@ -49,7 +49,8 @@
     "searxng": "SearXNG est un métamoteur de recherche respectueux de la vie privée et piratable qui agrège les résultats de divers moteurs de recherche tout en protégeant la vie privée de l'utilisateur."
   },
   "footer": {
-    "copyright": "© 2025 URL4IRL. Technologie qui sert l'humanité."
+    "copyright": "© 2025 URL4IRL. Technologie qui sert l'humanité.",
+    "status": "Statut"
   },
   "language": {
     "selector": "Langue",
