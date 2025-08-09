@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "URL4IRL - Tecnología que sirve a la humanidad",
+    "title": "url4irl - Tecnología que sirve a la humanidad",
     "description": "Un cambio de paradigma de aplicaciones que cosechan atención a herramientas que mejoran la vida, fortalecen las conexiones del mundo real y empoderan la agencia individual."
   },
   "nav": {
@@ -19,7 +19,7 @@
   },
   "philosophy": {
     "title": "Filosofía Central",
-    "description": "La tecnología debe servir a la humanidad, no consumirla. URL4IRL representa un cambio de paradigma de aplicaciones que cosechan atención a herramientas que mejoran la vida, fortalecen las conexiones del mundo real y empoderan la agencia individual."
+    "description": "La tecnología debe servir a la humanidad, no consumirla. url4irl representa un cambio de paradigma de aplicaciones que cosechan atención a herramientas que mejoran la vida, fortalecen las conexiones del mundo real y empoderan la agencia individual."
   },
   "pillars": {
     "title": "Los Tres Pilares",
@@ -49,7 +49,7 @@
     "searxng": "SearXNG es un metabuscador hackeable y respetuoso con la privacidad que agrega resultados de varios motores de búsqueda mientras protege la privacidad del usuario."
   },
   "footer": {
-    "copyright": "© 2025 URL4IRL. Tecnología que sirve a la humanidad.",
+    "copyright": "© 2025 url4irl. Tecnología que sirve a la humanidad.",
     "status": "Estado"
   },
   "language": {

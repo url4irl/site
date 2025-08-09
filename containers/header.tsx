@@ -2,17 +2,7 @@
 
 import { LanguageSelector } from "@/components/language-selector";
 import Logo from "@/components/logo";
-import {
-  Monitor,
-  Users,
-  GraduationCap,
-  ArrowRight,
-  Github,
-  Globe,
-  Languages,
-  Menu,
-  X,
-} from "lucide-react";
+import { Github, Menu, X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -63,13 +53,21 @@ export function HeaderContainer() {
           >
             {t("nav.github")}
           </a>
-          
+
           <a
             data-umami-event="header-projects-link"
             href="#projects"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             {t("nav.projects")}
+          </a>
+          <a
+            data-umami-event="header-blog-link"
+            href="https://blog.url4irl.com"
+            target="_blank"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {t("nav.blog")}
           </a>
           <LanguageSelector currentLocale={locale} />
         </nav>
@@ -109,7 +107,7 @@ export function HeaderContainer() {
             >
               {t("nav.pillars")}
             </a>
-            
+
             <a
               data-umami-event="header-mobile-projects-link"
               href="#projects"
@@ -117,6 +115,14 @@ export function HeaderContainer() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {t("nav.projects")}
+            </a>
+            <a
+              data-umami-event="header-mobile-blog-link"
+              href="https://blog.url4irl.com"
+              className="text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t("nav.blog")}
             </a>
             <a
               data-umami-event="header-mobile-github-link"

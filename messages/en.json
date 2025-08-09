@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "URL4IRL - Technology that serves humanity",
+    "title": "url4irl - Technology that serves humanity",
     "description": "A paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency."
   },
   "nav": {
@@ -19,7 +19,7 @@
   },
   "philosophy": {
     "title": "Core Philosophy",
-    "description": "Technology should serve humanity, not consume it. URL4IRL represents a paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency."
+    "description": "Technology should serve humanity, not consume it. url4irl represents a paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency."
   },
   "pillars": {
     "title": "The Three Pillars",
@@ -49,7 +49,7 @@
     "searxng": "SearXNG is a privacy-respecting, hackable metasearch engine that aggregates results from various search engines while protecting user privacy."
   },
   "footer": {
-    "copyright": "© 2025 URL4IRL. Technology that serves humanity.",
+    "copyright": "© 2025 url4irl. Technology that serves humanity.",
     "status": "Status"
   },
   "language": {
@@ -68,51 +68,5 @@
     "backToBlog": "Back to Blog",
     "noPosts": "No blog posts available yet.",
     "rss": "Subscribe to RSS Feed"
-  },
-  "DomainVerification": {
-    "meta_title": "Domain Verification Service - URL4IRL Projects",
-    "meta_description": "Verify and instruct domain configuration, enabling you to proceed pointing to them after DNS TXT record verification.",
-    "title": "Domain Verification Service",
-    "description": "Verify and instruct domain configuration, enabling you to proceed pointing to them after DNS TXT record verification.",
-    "how_to_use_title": "How to use this service",
-    "how_to_use_intro": "This service is designed for a \"User\" (e.g., a service or backend) that manages domains on behalf of its \"Customers\" (the end-users who own the domains).",
-    "step1_title": "User: Register a customer's domain",
-    "step1_description": "by sending a POST request to /api/domains/push with the domain name and IP address.",
-    "step2_title": "User: Request domain verification",
-    "step2_description": "for a customer by sending a POST request to /api/domains/verify with the domain name and the customer's ID. The service returns a unique TXT record.",
-    "step3_title": "User & Customer: Present the TXT record instructions",
-    "step3_description": "to the Customer. The Customer must then manually add this TXT record to their domain's DNS settings.",
-    "step4_title": "User: Periodically check if the domain is verified",
-    "step4_description": "by sending a GET request to /api/domains/check with the domain name and customer ID.",
-    "step5_title": "User: Once verified",
-    "step5_description": "the User can proceed to change its infrastructure/application/service to use the verified domain for the customer.",
-    "flow_diagram_title": "Flow Diagram",
-    "api_docs_title": "API Documentation",
-    "api_docs_description": "The API documentation is available on /docs. You can access it by navigating to http://localhost:4000/docs in your web browser.",
-    "api_docs_openapi": "OpenAPI specs are also available at",
-    "development_title": "Development",
-    "development_description": "To run the service in development mode, follow these steps:",
-    "dev_step1": "Clone the repository.",
-    "dev_step2": "Make sure you have Node.js, pnpm and Docker (with Docker Compose) installed on your machine.",
-    "dev_step3": "Install the dependencies and start the service:",
-    "testing_title": "Testing",
-    "testing_description": "This project includes comprehensive end-to-end (e2e) tests using Jest and Supertest. Tests run against a separate test database (postgres_test) to avoid affecting your development data.",
-    "test_db_title": "Test Database Management",
-    "test_db_description": "Each test automatically:",
-    "test_db_point1": "Sets up the test database schema before running",
-    "test_db_point2": "Cleans all data before each test",
-    "test_db_point3": "Resets auto-increment sequences",
-    "test_db_point4": "Closes database connections after completion",
-    "test_scenarios_title": "Test Scenarios",
-    "test_scenario_point1": "✅ Successful operations",
-    "test_scenario_point2": "✅ Validation errors (missing fields)",
-    "test_scenario_point3": "✅ Database interactions",
-    "test_scenario_point4": "✅ Integration flows",
-    "test_scenario_point5": "✅ Edge cases and error conditions",
-    "test_scenario_point6": "✅ Concurrent operations",
-    "test_scenario_point7": "✅ Data cleanup and isolation",
-    "deployment_title": "Deployment",
-    "deployment_description": "This project is deployed to a Coolify instance. When code changes are pushed to the repository, Coolify automatically rebuilds the project using the Dockerfile and deploys the updated service.",
-    "contributions_welcome": "Contributions are always welcome ❤️"
   }
 }

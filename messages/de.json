@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "URL4IRL - Technologie, die der Menschheit dient",
+    "title": "url4irl - Technologie, die der Menschheit dient",
     "description": "Ein Paradigmenwechsel von aufmerksamkeitserntenden Anwendungen zu lebensverbessernden Werkzeugen, die reale Verbindungen stärken und individuelle Handlungsfähigkeit stärken."
   },
   "nav": {
@@ -19,7 +19,7 @@
   },
   "philosophy": {
     "title": "Kernphilosophie",
-    "description": "Technologie sollte der Menschheit dienen, sie nicht konsumieren. URL4IRL repräsentiert einen Paradigmenwechsel von aufmerksamkeitserntenden Anwendungen zu lebensverbessernden Werkzeugen, die reale Verbindungen stärken und individuelle Handlungsfähigkeit stärken."
+    "description": "Technologie sollte der Menschheit dienen, sie nicht konsumieren. url4irl repräsentiert einen Paradigmenwechsel von aufmerksamkeitserntenden Anwendungen zu lebensverbessernden Werkzeugen, die reale Verbindungen stärken und individuelle Handlungsfähigkeit stärken."
   },
   "pillars": {
     "title": "Die Drei Säulen",
@@ -49,7 +49,7 @@
     "searxng": "SearXNG ist eine datenschutzfreundliche, hackbare Metasuchmaschine, die Ergebnisse von verschiedenen Suchmaschinen aggregiert und gleichzeitig die Privatsphäre der Benutzer schützt."
   },
   "footer": {
-    "copyright": "© 2025 URL4IRL. Technologie, die der Menschheit dient.",
+    "copyright": "© 2025 url4irl. Technologie, die der Menschheit dient.",
     "status": "Status"
   },
   "language": {

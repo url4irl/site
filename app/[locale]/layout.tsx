@@ -35,7 +35,7 @@ export async function generateMetadata({
   const siteMessages = messages.site as any;
 
   return {
-    title: siteMessages?.title || "URL4IRL - Technology that serves humanity",
+    title: siteMessages?.title || "url4irl - Technology that serves humanity",
     description:
       siteMessages?.description ||
       "A paradigm shift from attention-harvesting applications to life-enhancing tools that strengthen real-world connections and empower individual agency.",
@@ -60,7 +60,11 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   return (
     <html lang={locale}>
       <head>
-        <script defer src="https://umami.url4irl.com/script.js" data-website-id="8e9e0bd0-d5e3-42d1-bf6d-db684e382afa"></script>
+        <script
+          defer
+          src="https://umami.url4irl.com/script.js"
+          data-website-id="8e9e0bd0-d5e3-42d1-bf6d-db684e382afa"
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
