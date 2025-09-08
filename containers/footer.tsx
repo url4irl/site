@@ -9,7 +9,7 @@ export function FooterContainer() {
       <div className="container mx-auto px-6 md:px-8 text-center">
         <p className="text-muted-foreground">
           <Link
-            href="https://uptime.url4irl.com/status/all"
+            href="https://uptime.url4irl.com/status/open-services"
             target="_blank"
             data-umami-event="footer-status"
           >
