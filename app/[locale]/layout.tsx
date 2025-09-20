@@ -63,7 +63,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
         <script
           defer
           src="https://umami.url4irl.com/script.js"
-          data-website-id="8e9e0bd0-d5e3-42d1-bf6d-db684e382afa"
+          data-website-id="9bd50b1a-e400-4467-90ab-70b158332bd3"
         ></script>
       </head>
       <body
