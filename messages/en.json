@@ -46,10 +46,11 @@
     "eutiveumsonho": "Eu tive um sonho is a social network designed for dreamers to preserve and exchange their dreams within the worldwide dreaming community.",
     "domain-verification": "Verify and instruct domain configuration, enabling you to proceed pointing to them after DNS TXT record verification",
     "token-count": "A service that offers API endpoints for users to send documents and have them broken down into an AI readiness/usage analysis: token count, document size in bytes, character count, etc",
-    "searxng": "SearXNG is a privacy-respecting, hackable metasearch engine that aggregates results from various search engines while protecting user privacy."
+    "searxng": "SearXNG is a privacy-respecting, hackable metasearch engine that aggregates results from various search engines while protecting user privacy.",
+    "saas-simulator": "Simple, interactive SaaS Conversion Simulator. It allows you to model and visualize the financial and user metrics for a SaaS business based on customizable parameters."
   },
   "footer": {
-    "copyright": "© 2025 url4irl. Technology that serves humanity.",
+    "copyright": "2025 url4irl. Technology that serves humanity.",
     "status": "Status"
   },
   "language": {

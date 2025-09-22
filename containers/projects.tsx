@@ -31,6 +31,12 @@ export function ProjectsContainer() {
       href: "https://search.url4irl.com",
       github: "https://github.com/searxng/searx-instances/issues/642",
     },
+    {
+      name: "SaaS Conversion Simulator",
+      description: t("projects.saas-simulator"),
+      href: "https://saas-conversion-simulator.url4irl.com",
+      github: "https://github.com/url4irl/saas-conversion-simulator",
+    },
   ];
 
   return (
