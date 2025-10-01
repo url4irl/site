@@ -14,6 +14,11 @@ export function ProjectsContainer() {
       github: "https://github.com/eutiveumsonho/eutiveumsonho",
     },
     {
+      name: "Vectors Gateway",
+      description: t("projects.vectors-gateway"),
+      github: "https://github.com/url4irl/vectors-gateway",
+    },
+    {
       name: "Domain Verification Service",
       description: t("projects.domain-verification"),
       href: "https://domain-verification.url4irl.com/docs",
@@ -56,15 +61,17 @@ export function ProjectsContainer() {
                 <p className="text-muted-foreground">{project.description}</p>
               </div>
               <div className="mt-4 flex justify-between items-center">
-                <a
-                  data-umami-event={`project-click-${project.name}`}
-                  href={project.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline"
-                >
-                  {new URL(project.href).hostname}
-                </a>
+                {project.href && (
+                  <a
+                    data-umami-event={`project-click-${project.name}`}
+                    href={project.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline"
+                  >
+                    {new URL(project.href).hostname}
+                  </a>
+                )}
                 {project.github && (
                   <a
                     data-umami-event={`github-click-${project.name}`}

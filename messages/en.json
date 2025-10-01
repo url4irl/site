@@ -47,7 +47,8 @@
     "domain-verification": "Verify and instruct domain configuration, enabling you to proceed pointing to them after DNS TXT record verification",
     "token-count": "A service that offers API endpoints for users to send documents and have them broken down into an AI readiness/usage analysis: token count, document size in bytes, character count, etc",
     "searxng": "SearXNG is a privacy-respecting, hackable metasearch engine that aggregates results from various search engines while protecting user privacy.",
-    "saas-simulator": "Simple, interactive SaaS Conversion Simulator. It allows you to model and visualize the financial and user metrics for a SaaS business based on customizable parameters."
+    "saas-simulator": "Simple, interactive SaaS Conversion Simulator. It allows you to model and visualize the financial and user metrics for a SaaS business based on customizable parameters.",
+    "vectors-gateway": "A Sidecar service for applications that need vector database functionality to augment their LLMs. This service provides embeddings and retrieval capabilities by abstracting embeddings generation (LiteLLM) and vector storage and search (Qdrant)."
   },
   "footer": {
     "copyright": "2025 url4irl. Technology that serves humanity.",
